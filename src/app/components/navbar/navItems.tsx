@@ -66,10 +66,10 @@ export function NavItems() {
             <LinkContainer href="/" menu>Accueil</LinkContainer>
           </NavItem>
           <NavItem menu>
-            <LinkContainer href="#services" menu>Services</LinkContainer>
+            <LinkContainer href="/#services" menu>Services</LinkContainer>
           </NavItem>
           <NavItem menu>
-            <LinkContainer href="#about-us" menu>À propos</LinkContainer>
+            <LinkContainer href="/#about-us" menu>À propos</LinkContainer>
           </NavItem>
           <NavItem menu>
             <LinkContainer href="/contact" menu>Contactez-nous</LinkContainer>
@@ -84,10 +84,10 @@ export function NavItems() {
         <LinkContainer href="/">Accueil</LinkContainer>
       </NavItem>
       <NavItem>
-        <LinkContainer href="#services">Services</LinkContainer>
+        <LinkContainer href="/#services">Services</LinkContainer>
       </NavItem>
       <NavItem>
-        <LinkContainer href="#about-us">À propos</LinkContainer>
+        <LinkContainer href="/#about-us">À propos</LinkContainer>
       </NavItem>
       <NavItem>
         <LinkContainer href="/contact">Contactez-nous</LinkContainer>

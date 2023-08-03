@@ -11,7 +11,6 @@ const PageContainer = styled.div`
     flex
     flex-col
     w-full
-    items-center
   `}
 `;
 
@@ -22,6 +21,7 @@ const WhiteContainer = styled.div`
     justify-center
     items-center
     bg-wback
+    min-h-screen
   `};
 `;
 

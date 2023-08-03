@@ -122,10 +122,10 @@ export function Footer() {
               <a href="/">Accueil</a>
             </ListItem>
             <ListItem>
-              <a href="#services">Services</a>
+              <a href="/#services">Services</a>
             </ListItem>
             <ListItem>
-              <a href="#about-us">À propos</a>
+              <a href="/#about-us">À propos</a>
             </ListItem>
           </LinksList>
         </SectionContainer>
