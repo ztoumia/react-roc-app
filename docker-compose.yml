@@ -1,4 +1,17 @@
 services:
+  nginx:
+    image: mon-nginx-image
+    container_name: mon-nginx-image
+    ports:
+      - 80:80
+      - 443:443
+    command: /bin/sh -c "nginx -g 'daemon off;'"
+    depends_on:
+      app-prod:
+        condition: service_started
+    networks:
+      - shared-network
+
   app-prod:
     container_name: react_app_prod
     image: react-app-prod:1.0.0
