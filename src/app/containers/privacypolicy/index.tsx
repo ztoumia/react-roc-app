@@ -121,12 +121,12 @@ export function PrivacyPolicy() {
             <li>Droit à la portabilité des données</li>
           </ul>
           
-          <p>Pour exercer vos droits ou pour toute question relative à vos données personnelles, veuillez nous contacter à info@zideatch.com</p>
+          <p>Pour exercer vos droits ou pour toute question relative à vos données personnelles, veuillez nous contacter à	ztoumia@crosstechs.fr</p>
 
           
           <h2>COMMENT NOUS CONTACTER</h2>
           <p>Si vous avez des questions, des réclamations ou des recommandations concernant notre Politique de protection des données personnelles, 
-            veuillez nous contacter info@zideatch.com</p>
+            veuillez nous contacter	ztoumia@crosstechs.fr</p>
           
           <p>Nous prenons en charge les requêtes concernant vos données personnelles dans les 30 jours. Veuillez fournir une photocopie de votre 
             pièce d&rsquo;identité pour vérifier votre identité.</p>

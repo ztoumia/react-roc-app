@@ -1,0 +1,16 @@
+services:
+  app-prod:
+    container_name: react_app_prod
+    image: react-app-prod:1.0.0
+    build: 
+      target: production
+      dockerfile: Dockerfile
+    command: yarn run start:prod
+    ports:
+      - 3000:3000
+    networks:
+      - shared-network
+    restart: unless-stopped
+
+networks:
+  shared-network:
