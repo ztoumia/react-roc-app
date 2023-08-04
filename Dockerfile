@@ -13,6 +13,6 @@ RUN yarn install --production=false
 
 COPY . .
 
-RUN yarn build:prod
+RUN yarn build
 
-CMD [ "sh", "-c", "yarn start:prod" ] 
+CMD [ "sh", "-c", "yarn start" ] 
